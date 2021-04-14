@@ -11,7 +11,9 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-
+*/.DS_Store
+.DS_Store
+.idea
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -148,3 +150,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 
+/.idea

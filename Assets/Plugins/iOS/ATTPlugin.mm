@@ -25,6 +25,7 @@ int Sge_Att_getTrackingAuthorizationStatus()
 typedef void (*Callback)(int status);
 void Sge_Att_requestTrackingAuthorization(Callback callback)
 {
+    NSLog(@"Sge_Att_requestTrackingAuthorization");
     if (@available(iOS 14, *)) {
         [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
             if (callback != nil) {
